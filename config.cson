@@ -1,7 +1,36 @@
 "*":
+  "autocomplete-python":
+    useKite: false
   core:
+    disabledPackages: [
+      "linter-flake8"
+      "jupyter-notebook"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "desktop.ini .git"
+    ]
     telemetryConsent: "no"
+  editor:
+    scrollPastEnd: true
+    showIndentGuide: true
+    softWrap: true
+    softWrapAtPreferredLineLength: true
+    tabLength: 4
+    tabType: "soft"
   "exception-reporting":
     userId: "a606372a-bd50-4b91-9a13-669ecab89621"
+  "linter-flake8":
+    executablePath: "/home/dmaidment/dev/medical/flask-app/virtual/lib/python3.8/site-packages/flake8"
+  "markdown-preview":
+    useGitHubStyle: true
+  "tree-view":
+    hideIgnoredNames: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
