@@ -1,4 +1,6 @@
 "*":
+  "autocomplete-plus":
+    enableAutoActivation: false
   "autocomplete-python":
     useKite: false
   core:
@@ -17,18 +19,24 @@
     ]
     telemetryConsent: "no"
   editor:
+    preferredLineLength: 79
     scrollPastEnd: true
     showIndentGuide: true
-    softWrap: true
-    softWrapAtPreferredLineLength: true
+    softWrapHangingIndent: 16
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
     userId: "a606372a-bd50-4b91-9a13-669ecab89621"
   "linter-flake8":
     executablePath: "/home/dmaidment/dev/medical/flask-app/virtual/lib/python3.8/site-packages/flake8"
+  "linter-ui-default": {}
   "markdown-preview":
     useGitHubStyle: true
+  "spell-check":
+    locales: [
+      "en-GB"
+    ]
+    useSystem: false
   "tree-view":
     hideIgnoredNames: true
     hideVcsIgnoredFiles: true
