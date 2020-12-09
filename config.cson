@@ -27,6 +27,8 @@
     tabType: "soft"
   "exception-reporting":
     userId: "a606372a-bd50-4b91-9a13-669ecab89621"
+  github:
+    remoteFetchProtocol: "ssh"
   "linter-flake8":
     executablePath: "/home/dmaidment/dev/medical/flask-app/virtual/lib/python3.8/site-packages/flake8"
   "linter-ui-default": {}
