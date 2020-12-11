@@ -22,7 +22,7 @@
     preferredLineLength: 79
     scrollPastEnd: true
     showIndentGuide: true
-    softWrapHangingIndent: 16
+    softWrapHangingIndent: 4
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
