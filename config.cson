@@ -2,6 +2,7 @@
   "autocomplete-plus":
     enableAutoActivation: false
   "autocomplete-python":
+    showTooltips: true
     useKite: false
   core:
     disabledPackages: [
@@ -22,7 +23,7 @@
     preferredLineLength: 79
     scrollPastEnd: true
     showIndentGuide: true
-    softWrapHangingIndent: 16
+    softWrapHangingIndent: 4
     tabLength: 4
     tabType: "soft"
   "exception-reporting":
@@ -33,6 +34,7 @@
     showPanel: true
   "markdown-preview":
     useGitHubStyle: true
+  minimap: {}
   "spell-check":
     locales: [
       "en-GB"
