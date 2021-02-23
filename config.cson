@@ -2,7 +2,10 @@
   "autocomplete-plus":
     enableAutoActivation: false
   "autocomplete-python":
+    showTooltips: true
+    suggestionPriority: 1
     useKite: false
+    useSnippets: "all"
   core:
     disabledPackages: [
       "linter-flake8"
