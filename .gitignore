@@ -1,6 +1,6 @@
 *
 !.gitignore
 !config.cson
-!package.list
+!package_list.txt
 !keymap.cson
 !styles.less
