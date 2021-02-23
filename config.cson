@@ -21,7 +21,9 @@
       "desktop.ini .git"
     ]
     telemetryConsent: "no"
+    uriHandlerRegistration: "always"
   editor:
+    fontSize: 15
     preferredLineLength: 79
     scrollPastEnd: true
     showIndentGuide: true
