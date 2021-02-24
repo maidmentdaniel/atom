@@ -3,7 +3,9 @@
     enableAutoActivation: false
   "autocomplete-python":
     showTooltips: true
+    suggestionPriority: 1
     useKite: false
+    useSnippets: "all"
   core:
     disabledPackages: [
       "linter-flake8"
@@ -19,7 +21,9 @@
       "desktop.ini .git"
     ]
     telemetryConsent: "no"
+    uriHandlerRegistration: "always"
   editor:
+    fontSize: 15
     preferredLineLength: 79
     scrollPastEnd: true
     showIndentGuide: true
